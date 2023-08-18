@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body main{
+    font-family: Arial;
+    margin: 0;
+  }
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+    background: #13293d;
+    color: #fff;
+  margin:0%;
+
+     }
+  
+ .name{
+    width: fit-content;
+    font-size: 60px;
+    background-color: aqua;
+    /* padding: 2%;  */
+    padding-left: 20%;
+    text-align: left;
+     }
+  
+h1{
+    color: #13293d;
+  }
+
+ul li{
+    list-style-type:none;
+    display: inline-block;
+    padding-right: 20px;
+    text-decoration: underline;
+  }
+h2{
+    font-size: 40px;
+    color: aqua;
+    padding-right: 5%;
+    margin:auto;
+      }
+
+img{
+    width: 100%;
+    display: flex;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(246, 247, 250);
+}
+aside {
+    flex: 1;
+    padding: 2%;
+    width: 20%;
+    float: left;
+  }
+ .description{
+    flex: 1;
+    width: 76%;
+    font-size: 30px;
+  float: left;
+
+  display:block;
+  text-align: justify;
+ }
+  div{
+    flex: 1;
+    width: 76%; 
+  float: left;
+  /* display:block; */
+  text-align: justify;
+  }
+  .column-left {
+    float: left;
+    height: 100%;
+    width:20%;
+    text-align: right;
+    font-size: 50px;
+    border: 10px;
+
+   }
+
+.work{
+    display: inline-block;
+
+}
+
+.card{
+    width:48%;
+    display: inline-block;
+    margin: 1%;
+    padding:1%;
+    background-color: aqua;
+    position: relative;
+    
+}
+.first-card{
+width: 98%;
+margin: 1%;
+padding:1%;
+background-color: aqua;
+position: relative;
+}
+.text-block-first{
+   
+    position:absolute;
+    width:20%;
+    bottom:50px;
+    left:10px;
+    background-color: aqua;
+    color: black;
+
+}
+ 
+.text-block{
+   
+    position:absolute;
+    width:35%;
+    bottom:30px;
+    left:10px;
+    background-color: aqua;
+    color: black;
+
+}
+.image-font{
+    font-size: 15px;
+}
+.fade{
+    opacity: 0.6;
+}
+img:hover{
+    opacity: 1.0;
+    cursor: grab;
+}
+.contact{
+  position: relative;
+    font-size: 25px;
+    padding-top: 7%;
+}
+
+  @media screen and (max-width: 768px) {
+    main {
+      font-size: 70px;
+    }
+  }
