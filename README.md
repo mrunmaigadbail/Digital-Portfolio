@@ -3,10 +3,7 @@ Added place holder for about me, work, and contact me. About me paragraphs and i
 
 Added home links for twitter and spotify as I dont use those sites
 
-
-
-
-
+Links to section about me, work and contact me will take you to respective section
 
 screen shots from 15 inch laptop
 ![digital portfolio 1](https://github.com/mrunmaigadbail/Digital-Portfolio/assets/141286475/de6d113c-62ea-4eff-bd59-769a526e0bc6)
